@@ -1,6 +1,7 @@
 PA0
 Basic WordCount MapReduce program to verify our Hadoop was set up correctly.
 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 PA1
 Generates the following unigram profiles (from a 1G dataset of Wikipedia articles) using MapReduce:
 
@@ -24,11 +25,16 @@ Title_of_Article-2<====>DocumentID-2<====>Text_of_Article-2
 …
 There are 3 components describing an article: (1) Title of the article, (2) Document ID, and (3) Text of the article. The title (text information) represents the title of a Wikipedia article. The document ID is specified by Wikipedia and every article has a unique document id. Finally, the text of the article encapsulates what was included in that Wikipedia article. Each data file may contain multiple Wikipedia articles and these are separated by two consecutive NEWLINE characters.
 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 PA2
 This program extracts the top 3 sentneces that summarize the article using MapReduce. Ranking of the setences is computed using TF.IDF scores; TF.IDF values are computed for each unigram, the top 5 scores per sentecne are summed, giving the Sentence-TF.IDF value.
 
 Input Data
 The format of the input data for PA2 is identical to PA1. Extraneous periods were removed to increase accuracy of sentence parsing.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 
 PA3
 Uses Apache Spark in an iterative fashion to create the following:
