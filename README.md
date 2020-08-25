@@ -1,8 +1,11 @@
-PA0
+# CS 435 Intro To Big Data
+
+
+## PA0
 Basic WordCount MapReduce program to verify our Hadoop was set up correctly.
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-PA1
+## PA1
 Generates the following unigram profiles (from a 1G dataset of Wikipedia articles) using MapReduce:
 
 Profile 1
@@ -27,7 +30,7 @@ There are 3 components describing an article: (1) Title of the article, (2) Docu
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-PA2
+## PA2
 This program extracts the top 3 sentneces that summarize the article using MapReduce. Ranking of the setences is computed using TF.IDF scores; TF.IDF values are computed for each unigram, the top 5 scores per sentecne are summed, giving the Sentence-TF.IDF value.
 
 Input Data
@@ -36,7 +39,7 @@ The format of the input data for PA2 is identical to PA1. Extraneous periods wer
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
-PA3
+## PA3
 Uses Apache Spark in an iterative fashion to create the following:
 
 Estimation of PageRank values under ideal conditions
